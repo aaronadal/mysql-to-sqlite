@@ -1,0 +1,20 @@
+{
+  "name": "aaronadal/mysql-to-sqlite",
+  "type": "library",
+  "license": "MIT",
+  "description": "Converts mysql databases to sqlite databases.",
+  "authors": [
+    {
+      "name": "Aarón Nadal",
+      "email": "aaronadal.dev@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.2.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Aaronadal\\MysqlToSqlite\\": "src/"
+    }
+  }
+}
